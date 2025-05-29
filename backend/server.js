@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Permitir CORS desde localhost:3000 y localhost:4000 (frontend y backend)
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:4000']
+    origin: ['http://localhost:3000', 'http://localhost:4000',  'https://suged-frontend.onrender.com']
 }));
 
 // Importa rutas API
